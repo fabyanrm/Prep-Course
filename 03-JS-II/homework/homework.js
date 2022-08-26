@@ -85,9 +85,9 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero === 10 || numero === 5) {
-    return 'true';
+    return true;
   }
-  return 'false';
+  return false;
 }
 
 function estaEnRango(numero) {
@@ -96,9 +96,9 @@ function estaEnRango(numero) {
   // Tu código:
   
    if (numero < 50 && numero > 20) {
-    return 'true';
+    return true;
    }
-   return 'false';
+   return false;
 }
 
 function esEntero(numero) {
@@ -110,11 +110,10 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
   if (numero % 1 === 0) {
-    return 'true';
+    return true;
   }
-  return 'fase';
+  return false;
 }
-
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
@@ -191,7 +190,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   let arrayTablaDel6 = []
-  for (let i = 0; i < 61; i++) {
+  for (let i = 0; i < 11; i++) {
         arrayTablaDel6.push(6 * i);
   }
   return arrayTablaDel6;
