@@ -1,14 +1,25 @@
-<style>
         #thirdDiv {
-            font-size: 25px; 
-            font-weight: 5px;
-            color: rgb(238, 225, 238);
+            height: 600px; 
+            width: 500px;
+            background-color: bisque;
             padding: 50px;
-            border: 20px; color: blueviolet;
+            border: 5px solid blue;
+            text-align: center;
+            margin: auto;
         }
-        span{
+        #spanId{
             font-size: 18px; 
             margin: 50px;
         }
 
-</style>
+        body {
+            background-image: url("img/Fondo\ Degradado.jpg");
+        }
+
+        .divClass{
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
